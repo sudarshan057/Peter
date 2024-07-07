@@ -1,0 +1,4 @@
+➜  Ansible-Examples git:(master) ✗ cat ansible_hosts
+[webservers]
+mwivmweb01
+mwivmweb02
