@@ -1,0 +1,7 @@
+ - name: create username apacheadm
+        user:
+          name: apacheadm
+          group: users,admin
+          shell: /bin/bash
+          home: /home/weblogic
+
