@@ -1,0 +1,4 @@
+    vars:
+       key_file:  /etc/apache2/ssl/mywebsite.key
+       cert_file: /etc/apache2/ssl/mywebsite.cert
+       server_name: www.mywebsite.com
