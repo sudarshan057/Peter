@@ -1,0 +1,5 @@
+vars:
+  var1:
+    foo1:
+      field1: example_name_1
+      field2: example_name_2
