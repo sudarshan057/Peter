@@ -1,0 +1,10 @@
+tasks:
+  - name: Run a script and register the output as a variable
+    shell: "find example_file"
+    args:
+      chdir: "/tmp"
+    register: example_script_output
+
+  - name: Use the output variable of the previous task
+    debug:
+      var: example_script_output
